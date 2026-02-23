@@ -86,9 +86,6 @@ The dataset contains **99,457 retail transactions** with the following attribute
 
 ---
 
-## 📁 Project Structure
-
-
 
 # 🏠 Housing Price Prediction using Linear Regression
 
