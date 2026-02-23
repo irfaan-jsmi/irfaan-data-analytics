@@ -114,10 +114,6 @@ To build a regression model that can accurately predict house prices based on va
 
 ---
 
-## 📂 Project Structure
-
----
-
 ## 📊 Workflow
 
 ### 1️⃣ Data Loading
