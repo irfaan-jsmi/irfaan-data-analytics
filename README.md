@@ -88,3 +88,70 @@ The dataset contains **99,457 retail transactions** with the following attribute
 
 ## 📁 Project Structure
 
+
+
+# 🏠 Housing Price Prediction using Linear Regression
+
+## 📌 Project Overview
+
+This project aims to predict housing prices using **Linear Regression**, a supervised machine learning algorithm.  
+It demonstrates the complete machine learning workflow including data preprocessing, model training, evaluation, and prediction.
+
+---
+
+## 🎯 Objective
+
+To build a regression model that can accurately predict house prices based on various features in the dataset.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 📂 Project Structure
+
+---
+
+## 📊 Workflow
+
+### 1️⃣ Data Loading
+- Imported required libraries
+- Loaded the housing dataset using Pandas
+
+### 2️⃣ Data Preprocessing
+- Checked for missing values
+- Cleaned and prepared the dataset
+- Selected feature variables (X) and target variable (y)
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+- Visualized relationships between features
+- Analyzed correlation between variables
+- Identified important factors affecting house prices
+
+### 4️⃣ Model Building
+- Split dataset into training and testing sets
+- Applied Linear Regression model
+- Trained the model using training data
+
+### 5️⃣ Model Evaluation
+- Predicted house prices on test data
+- Evaluated performance using:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - R² Score
+
+---
+
+## 📈 Results
+
+The Linear Regression model was successfully trained and tested.  
+The evaluation metrics show the model’s effectiveness in predicting housing prices.
