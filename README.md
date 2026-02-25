@@ -330,3 +330,109 @@ The models were trained and evaluated to determine which algorithm performs best
 
 ## 📈 Conclusion
 Machine learning models can effectively predict wine quality using chemical attributes. Random Forest generally performs better due to its ensemble learning capability.
+
+
+
+
+# 💳 Credit Card Fraud Detection using Machine Learning
+
+## 📌 Project Overview
+This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques.  
+Due to the highly imbalanced nature of the dataset, special handling techniques such as SMOTE were applied to improve fraud detection performance.
+
+---
+
+## 📂 Dataset Information
+- Source: Kaggle Credit Card Fraud Detection Dataset
+- Total Transactions: 284,807
+- Fraud Cases: 492 (~0.17%)
+- Features: 30 (V1–V28 PCA features + Time + Amount)
+- Target Variable: Class
+  - 0 → Normal Transaction
+  - 1 → Fraud Transaction
+
+---
+
+## 🎯 Problem Statement
+To build a classification model that accurately detects fraudulent transactions while handling class imbalance effectively.
+
+---
+
+## 🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Imbalanced-learn (SMOTE)
+
+---
+
+## 🔍 Exploratory Data Analysis
+- Checked class imbalance
+- Correlation heatmap
+- Fraud vs Normal distribution
+- Feature scaling on Amount column
+
+---
+
+## 🤖 Machine Learning Models Used
+
+1. Logistic Regression
+2. Random Forest Classifier
+
+---
+
+## ⚖ Handling Class Imbalance
+Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset and improve fraud recall.
+
+---
+
+## 📊 Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC Score
+
+Important Formula:
+
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
+Recall is particularly important in fraud detection because missing a fraud transaction can result in financial loss.
+
+---
+
+## 📈 Results Summary
+
+| Model              | Accuracy | Recall | F1 Score | ROC-AUC |
+|-------------------|----------|--------|----------|---------|
+| Logistic Regression | XX% | XX% | XX% | XX% |
+| Random Forest      | XX% | XX% | XX% | XX% |
+
+(Random Forest performed better in detecting fraud cases.)
+
+---
+
+## 🚀 Key Learnings
+- Importance of handling imbalanced datasets
+- Why accuracy is not enough in fraud detection
+- Understanding precision vs recall tradeoff
+- Practical implementation of SMOTE
+
+---
+
+## 📌 Future Improvements
+- Hyperparameter tuning
+- XGBoost implementation
+- Deep Learning model (LSTM/ANN)
+- Real-time fraud detection deployment
+
+---
+
+## 👨‍💻 Author
+Irfaan Basha  
+B.E Artificial Intelligence (3rd Year)  
+Aspiring Data Scientist
