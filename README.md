@@ -264,3 +264,69 @@ The clustering model identified distinct customer segments such as:
 
 The Linear Regression model was successfully trained and tested.  
 The evaluation metrics show the model’s effectiveness in predicting housing prices.
+
+
+
+# 🍷 Wine Quality Prediction
+
+## 📌 Project Overview
+This project focuses on predicting the quality of wine based on its chemical properties using Machine Learning techniques. The goal is to build classification models that can determine wine quality using features such as acidity, density, alcohol content, and other chemical attributes.
+
+## 🎯 Objective
+To analyze wine chemical characteristics and build predictive models using:
+- Random Forest
+- Stochastic Gradient Descent (SGD)
+- Support Vector Classifier (SVC)
+
+## 📂 Dataset
+The dataset contains physicochemical properties of wine samples and their quality ratings.
+
+Features include:
+- Fixed acidity
+- Volatile acidity
+- Citric acid
+- Residual sugar
+- Chlorides
+- Free sulfur dioxide
+- Total sulfur dioxide
+- Density
+- pH
+- Sulphates
+- Alcohol
+- Quality (Target Variable)
+
+## 🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## 🔍 Project Workflow
+
+1. Data Loading
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Data Visualization
+5. Feature Selection
+6. Model Training
+7. Model Evaluation
+8. Accuracy Comparison
+
+## 🤖 Models Used
+
+- Random Forest Classifier
+- Stochastic Gradient Descent Classifier
+- Support Vector Classifier (SVC)
+
+## 📊 Evaluation Metrics
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+## 🚀 Results
+The models were trained and evaluated to determine which algorithm performs best in predicting wine quality.
+
+## 📈 Conclusion
+Machine learning models can effectively predict wine quality using chemical attributes. Random Forest generally performs better due to its ensemble learning capability.
