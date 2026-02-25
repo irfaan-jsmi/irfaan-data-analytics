@@ -142,6 +142,122 @@ To build a regression model that can accurately predict house prices based on va
   - Mean Squared Error (MSE)
   - R² Score
 
+
+
+# 📊 Customer Segmentation Analysis
+
+## 📌 Project Description
+
+This project focuses on performing Customer Segmentation Analysis for an e-commerce company.  
+The goal is to analyze customer purchasing behavior and divide customers into distinct segments using clustering techniques.
+
+Customer segmentation helps businesses:
+- Improve targeted marketing strategies
+- Increase customer satisfaction
+- Enhance business decision-making
+- Boost revenue growth
+
+---
+
+## 🎯 Objectives
+
+- Perform Data Cleaning and Exploration
+- Analyze customer purchase patterns
+- Apply K-Means Clustering algorithm
+- Visualize customer segments
+- Generate actionable business insights
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📂 Dataset Information
+
+The dataset includes the following features:
+
+- Customer ID
+- Age
+- Gender
+- Annual Income
+- Spending Score
+- Purchase Frequency
+- Total Purchase Amount
+
+---
+
+## 🔍 Project Workflow
+
+### 1️⃣ Data Collection
+Loaded the dataset using Pandas.
+
+### 2️⃣ Data Cleaning
+- Checked for missing values
+- Removed duplicate records
+- Handled inconsistent data entries
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+- Generated statistical summary
+- Analyzed income and spending distributions
+- Identified patterns in customer behavior
+
+### 4️⃣ Feature Scaling
+Used StandardScaler to normalize numerical features before clustering.
+
+### 5️⃣ K-Means Clustering
+Applied K-Means algorithm to segment customers into different clusters.
+
+### 6️⃣ Data Visualization
+Created scatter plots and visual representations to interpret clusters.
+
+---
+
+## 📊 Results
+
+The clustering model identified distinct customer segments such as:
+
+- High Income – High Spending (Premium Customers)
+- Low Income – Low Spending (Budget Customers)
+- High Income – Low Spending (Potential Customers)
+- Low Income – High Spending (Impulse Buyers)
+
+---
+
+## 💡 Business Insights
+
+- Premium customers can be targeted with exclusive offers.
+- Potential customers can be converted using personalized marketing campaigns.
+- Budget customers may respond well to discounts and promotional offers.
+- Loyalty programs can retain high-value customers.
+
+---
+
+## 🎓 Learning Outcomes
+
+- Practical understanding of clustering algorithms
+- Data preprocessing and feature scaling techniques
+- Exploratory Data Analysis skills
+- Business-oriented data interpretation
+- Data visualization techniques
+
+---
+
+## 🚀 Future Improvements
+
+- Implement RFM (Recency, Frequency, Monetary) Analysis
+- Apply Hierarchical Clustering
+- Build a customer recommendation system
+- Deploy the project using Streamlit or Flask
+
 ---
 
 ## 📈 Results
